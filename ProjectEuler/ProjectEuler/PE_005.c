@@ -31,7 +31,7 @@ int smallestMultiple(int max) {
         } else {
             num++;
         }
-            
+        
     }
     
     return num;

@@ -48,7 +48,7 @@ bool isPalindrome(int num) {
     int reverse = 0;
     
     while(temp != 0) {
- 
+        
         reverse *= 10;
         reverse += temp%10;
         temp /= 10;
@@ -60,4 +60,3 @@ bool isPalindrome(int num) {
     else
         return false;
 }
-

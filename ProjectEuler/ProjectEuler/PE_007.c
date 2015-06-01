@@ -17,7 +17,7 @@ long getPrime(int n) {
     
     // while i haven't found the nth prime number...
     while(i <= n) {
-      
+        
         if(isPrime(temp)) {
             i++;
             myPrime = temp;
@@ -56,4 +56,4 @@ bool isPrime(long n) {
  for(int i=1; i<=7; i++) {
  printf("Prime %d is \t%li\n", i, getPrime(i));
  }
-*/
+ */

@@ -13,6 +13,8 @@
 #include <stdbool.h>        // includes bool
 #include <string.h>         // string handling functions
 #include <math.h>           // math functions
+#include <stdlib.h>
+
 
 
 // PE 001
@@ -46,12 +48,18 @@ long largestProductGrid(void);
 // PE 012
 int triangleNumber(int divisors);
 // PE 013
-
+long long sumOf100_50digitNums(void);
 // PE 014
-
+int numChains(long num);
+long getLongestChain(long max);
 // PE 015
-
+long long getNumPaths(int x, int y);
+long long sumPascalsTriangle(int n);
 // PE 016
+void twoPower(int n);
+int sumString(char myStringp[]);
+// PE 017
+// PE 018
 
 
 

@@ -24,10 +24,10 @@ long long getLargestPrimeFactor(long long n) {
 }
 
 bool checkPrime(long long n) {
-   
+    
     long long i;
     bool isPrime = true;
-
+    
     for(i=2; i<n/2; i++) {
         if(n%i == 0) {
             isPrime = false;

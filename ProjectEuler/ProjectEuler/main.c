@@ -12,8 +12,7 @@ int main() {
     
     int answer = 0;
     
-    answer = triangleNumber(500);
-    
+
     printf("Answer = %d\n", answer);
     
     return 0;

@@ -58,7 +58,7 @@ long largestProductGrid() {
                 
                 switch (k) {
                         
-                    // N
+                        // N
                     case 0:
                         if((i-4) >= 0) {
                             for(int l=0; l<4; l++) {
@@ -67,7 +67,7 @@ long largestProductGrid() {
                         }
                         break;
                         
-                    // NE
+                        // NE
                     case 1:
                         if((i-4) >= 0 && (j+4) <= 19) {
                             for(int l=0; l<4; l++) {
@@ -76,7 +76,7 @@ long largestProductGrid() {
                         }
                         break;
                         
-                    // E
+                        // E
                     case 2:
                         if((j+4) <= 19) {
                             for(int l=0; l<4; l++) {
@@ -85,7 +85,7 @@ long largestProductGrid() {
                         }
                         break;
                         
-                    // SE
+                        // SE
                     case 3:
                         if((i+4) <= 19 && (j+4) <= 19) {
                             for(int l=0; l<4; l++) {
@@ -93,8 +93,8 @@ long largestProductGrid() {
                             }
                         }
                         break;
-                       
-                    // S
+                        
+                        // S
                     case 4:
                         if((i+4) <= 19) {
                             for(int l=0; l<4; l++) {
@@ -102,8 +102,8 @@ long largestProductGrid() {
                             }
                         }
                         break;
-                   
-                    // SW
+                        
+                        // SW
                     case 5:
                         if((i+4) <= 19 && (j-4) >= 0) {
                             for(int l=0; l<4; l++) {
@@ -113,7 +113,7 @@ long largestProductGrid() {
                         break;
                         
                         
-                    // W
+                        // W
                     case 6:
                         if((j-4) >= 0) {
                             for(int l=0; l<4; l++) {
@@ -122,7 +122,7 @@ long largestProductGrid() {
                         }
                         break;
                         
-                    // NW
+                        // NW
                     case 7:
                         if((i-4) >= 0 && (j-4) >= 0) {
                             for(int l=0; l<4; l++) {

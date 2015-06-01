@@ -33,8 +33,7 @@ long long largestProductFromSequence(int numDigits) {
             largest = temp;
         }
     }
-
+    
     return largest;
     
 }
-
